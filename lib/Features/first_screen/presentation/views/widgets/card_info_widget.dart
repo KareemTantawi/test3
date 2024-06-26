@@ -17,7 +17,7 @@ class CardInfoWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      // onTap: () => Get.to(Routes.secondScreen),
+      onTap: () => Get.toNamed(Routes.secondScreen),
       child: SizedBox(
         width: 182.w,
         child: Card(
