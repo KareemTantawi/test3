@@ -2,6 +2,11 @@
 class AppAssets {
   AppAssets._();
 
- 
-
+  static String notificationIcon = 'assets/icons/._Home - Notification .svg';
+  static String menuIcon = 'assets/icons/._Home - menu.svg';
+  static String car1Image = 'assets/images/car1.png';
+  static String car2Image = 'assets/images/car2.png';
+  static String car3Image = 'assets/images/car3.png';
+  static String mainBanner1 = 'assets/images/main_banner1.png';
+  static String mainBanner2 = 'assets/images/main_banner2.png';
 }

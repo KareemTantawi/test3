@@ -14,12 +14,12 @@ class AppPages {
   static final routes = [
     GetPage(
       name: Routes.firstScreen,
-      page: () => const FirstScreen(),
+      page: () =>  FirstScreen(),
     ),
-    GetPage(
-      name: Routes.secondScreen,
-      page: () => const SecondScreen(),
-    ),
+    // GetPage(
+    //   name: Routes.secondScreen,
+    //   // page: () =>  SecondScreen(),
+    // ),
     // GetPage(
     //   name: Routes.NOCONNECTION,
     //   page: () => const NoConnectionPage(),
