@@ -29,7 +29,7 @@ Widget buildCarBrands() {
                 ),
               ),
               SizedBox(height: 5.h),
-              Expanded(child: Text(carBrands[index])),
+              Text(carBrands[index]),
             ],
           ),
         );
