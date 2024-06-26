@@ -1,5 +1,6 @@
 import 'package:get/get.dart';
-
+import 'package:test/Features/first_screen/presentation/views/first_screen.dart';
+import 'package:test/Features/second_screen/presentation/views/second_screen.dart';
 
 part 'app_routes.dart';
 
@@ -8,17 +9,17 @@ class AppPages {
 
   // static const INITIAL = Routes.SPLASH;
 
-  static const INITIAL = Routes.HOME;
+  // static const INITIAL = Routes.HOME;
 
   static final routes = [
-    // GetPage(
-    //   name: Routes.HOME,
-    //   page: () => const HomeScreen(),
-    // ),
-    // GetPage(
-    //   name: Routes.SPLASH,
-    //   page: () => const SplashView(),
-    // ),
+    GetPage(
+      name: Routes.firstScreen,
+      page: () => const FirstScreen(),
+    ),
+    GetPage(
+      name: Routes.secondScreen,
+      page: () => const SecondScreen(),
+    ),
     // GetPage(
     //   name: Routes.NOCONNECTION,
     //   page: () => const NoConnectionPage(),
